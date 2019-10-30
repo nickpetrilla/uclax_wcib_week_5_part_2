@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 5, Part 2</title>
+    <title>Week 5, Part 2 - Silly Story Generator</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,13 +14,72 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+
   </head>
 
   <body>
 
-    <h1>Week 5, Part 2</h1>
+  <main role="main" class="container">
 
-	</body>
+    <div class="starter-template">
+      <h1>Silly Story Generator</h1>
+      <p class="lead">Welcome to the interactive Silly Story Generator<br>Enter a custom name and a funny sound into the text boxes below:</p>
+
+      <div id="name-field">
+
+        <div class="row">
+          <div class="col-xs-6 col-md-4">
+            <label class="name-label" for="customname">Enter custom name:</label>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <input id="customname" type="text" placeholder="">
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <p id="coolname">Make sure it's cool.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-4">
+            <label class="name-label" for="customsound">Enter a funny sound:</label>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <input id="customsound" type="text" placeholder="">
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <p id="funnysound">Make sure it's funny.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-4 radio-buttons">
+            <p> Where are you from?</p>
+            <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+            <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+          </div>
+
+          <div class="col-xs-6 col-md-4 radio-buttons">
+            <p> Are you goth?</p>
+            <label for="notgoth">Na</label><input id="notgoth" type="radio" name="gothnotgoth" value="notgoth" checked>
+            <label for="goth">Ya</label><input id="goth" type="radio" name="gothnotgoth" value="goth">
+          </div>
+
+          <div id="generate-button" class="col-xs-6 col-md-4">
+            <button class="randomize">Generate random story</button>
+          </div>
+
+
+
+        </div>
+
+        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+
+      </div>
+    </div>
+    <div>
+      <p class="story"></p>
+    </div>
+
+  </main><!-- /.container -->
+  <script src="js/scripts.js"></script>
+</body>
 
 </html>

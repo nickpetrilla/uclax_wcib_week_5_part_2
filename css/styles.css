@@ -1,0 +1,46 @@
+body {
+  padding-top: 5rem; }
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center; }
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem; } }
+
+#name-field {
+  background-color: black;
+  float: none;
+  padding: 1rem; }
+
+#generate-button {
+  margin-top: 3rem; }
+
+#coolname, #funnysound {
+  font-weight: 800;
+  color: white; }
+
+.radio-buttons {
+  margin-top: 1rem;
+  float: right;
+  display: inline;
+  color: white;
+  font-weight: 800; }
+
+.name-label {
+  color: white;
+  font-weight: 800; }
+
+.story {
+  margin: 10px;
+  font-size: 50px;
+  font-weight: 600; }
